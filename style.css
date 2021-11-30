@@ -1,0 +1,17 @@
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
+
+* {
+  margin: 0.5%;
+}
+
+.video1,
+.video2 {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
